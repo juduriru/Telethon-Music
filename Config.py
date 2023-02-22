@@ -3,8 +3,8 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "6213538"))
     API_HASH = os.environ.get("API_HASH", "8ce3522bd21cc937eee4c68813d501d5")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6122404059:AAG7Mw9RtMSxl7TT3H3uU2Fj1K2bgz9Ywwc")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOGkBuxv5nutJBM-SkeB52igR6bGSOWdkL1fTrOlOkRGdTL064LBO6T4rLpS1RQFWQrtbNgJfh1JeW-Em1ERv0i9FE-hSlZrFcE_uKCBA1urYinwhGlRfN5zcck8QYvYTqWW7GDdmuysSMAmv8J3JfvwdRjMuWh_Sye9vj7vhnPT1NuG2BAL5hJ8nwKZQhKqgFjzWdnBIKCbYM_Ng7k_del-WF912pONbutM5xe02ve2zFdVZB03-Wv-kytb-33bN7bkclwubwUCwsdEgDojn1O0_VR3IqcxT-dloD0I-BgCPQvx5TGtY3TXWeGGtbgFkmOngvxaARgzEk4jpKdYD7lI4Sq4=")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6059266175:AAHveGHVxwxOl-739kGwkdY9brGB9A9BvLw")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJIBuyVgDY04ry3Z049w0gnMzkdQBDGFjmL9ykkD4vF0DgGPNI2U826RhvdZt8d38Gcu4YSnxtHxOJWwz1-8ULlRvMSuFDioFaOhansuuLrk7zDMFnZeRDYwM-bk9dYloyc-7FpKkIhdtIEonxiGRl5Twwi3y6rWGTYKLFavVu7TWY3EFUkFyFYmvv4tj7u6VJNKJM995werhHEhRSf6qau4LkW7lfaCYDIZkWo0hQZcI6_W9y0C2fw4162iJAj5EanGZ_MLj6q38tGqlc8R4LNelKxA8Dbb6sfBxptYwcdU0PdDyk8_S__2xDoPTxGGNTIxWDXT-uBHpqSH_gNhbvCQlFA=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
